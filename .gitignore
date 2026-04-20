@@ -1,0 +1,16 @@
+# Firebase Config (NIE committen!)
+firebase-config.js
+
+# Node
+node_modules/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
