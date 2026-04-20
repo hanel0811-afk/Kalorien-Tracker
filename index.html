@@ -170,10 +170,17 @@
     <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-storage.js"></script>
 
-    <!-- Deine Firebase Config -->
-    <script src="firebase-config.js"></script>
-
     <script>
+        // 🔑 HIER DEINE FIREBASE CONFIG EINTRAGEN:
+        const firebaseConfig = {
+            apiKey: "AIzaSyD0eo_ebMlfC9SDc9j8-DKwrzF04uQy9ho",
+            authDomain: "kalorien-tracker-2421c.firebaseapp.com",
+            projectId: "kalorien-tracker-2421c",
+            storageBucket: "kalorien-tracker-2421c.firebasestorage.app",
+            messagingSenderId: "344939670745",
+            appId: "1:344939670745:web:84f98ef642a21e5a8e22c8"
+        };
+
         // Firebase initialisieren
         const app = firebase.initializeApp(firebaseConfig);
         const storage = firebase.storage();
